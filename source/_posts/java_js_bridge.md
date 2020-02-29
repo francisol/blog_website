@@ -127,7 +127,7 @@ Html
 </script>
 ```
 ## 效果
-![效果](http://7xqzei.com1.z0.glb.clouddn.com/blogJavaJsBridge.gif)
+![效果](https://xietzt-blog.oss-cn-beijing.aliyuncs.com/blogJavaJsBridge.gif)
 
 # 项目地址
 [JavaJs连接桥的实现](https://github.com/francisCN/JsBridge)

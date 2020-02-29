@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 天坑
-subtitle: 又一个程序猿
+title: 思渊
+subtitle: 羁鸟恋旧林，池鱼思故渊
 description: 个人博客
-author: Francis Xie
+author: Xie Zhongtao
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.xiezt.me
+url: http://francisol.github.io
 root: /
 permalink: :category/:title/
 permalink_defaults:
@@ -40,13 +40,14 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Category & Tag
 default_category: pages
 category_map:
 tag_map:
+  工具: tool
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -68,10 +69,36 @@ theme: maupassant
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@git.coding.net:francist/francist.coding.me.git
-  branch: master
-  
+
+
+theme_config:
+  search: local
+  wordcount: false
+  canvas_nest:
+    enable: true 
+  widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
+    - search
+    - category
+    - tag
+    - recent_posts
+  links:
+    - title: site-nam
+      url: http://www.example1.com/
+  menu:
+    - page: home
+      directory: .
+      icon: fa-home
+    - page: archive
+      directory: archives/
+      icon: fa-archive
+canvas_nest:
+  enable: true 
+widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
+  - search
+  - category
+  - tag
+  - recent_posts
+
 plugin:
 - hexo-generator-feed
 feed:

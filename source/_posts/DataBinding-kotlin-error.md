@@ -16,7 +16,7 @@ description: 两天kotlin1.0正式版发布的事情在Android 开发者和Java�
 
 两天kotlin1.0正式版发布的事情在Android 开发者和Java程序员中炸开了锅。其中不少Android程序员们肯定都想试试这个新玩意。但是如果你之前已经习惯于用Data Binding框架开发的话，你肯定会遇到这样一个问题：DataBinding和kotlin放在一个项目中编译执行会报错。如下图
 
-![错误信息](http://7xqzei.com1.z0.glb.clouddn.com/blogdatabinding-kotlin_error.png)
+![错误信息](https://xietzt-blog.oss-cn-beijing.aliyuncs.com/blogdatabinding-kotlin_error.png)
 # 解决方案
 本解决方案抄袭于[此处](http://qiita.com/umetsu/items/487d38be86c31ff59075) 在app下的build.gradle文件中添加下列代码
 ```
@@ -29,4 +29,4 @@ kapt {
 }
 ```
 
-![解决方案](http://7xqzei.com1.z0.glb.clouddn.com/blog%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.png)
+![解决方案](https://xietzt-blog.oss-cn-beijing.aliyuncs.com/blog%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.png)
