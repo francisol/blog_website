@@ -1,0 +1,22 @@
+[[main]]
+name = '首页'
+pageRef = '/'
+weight = 10
+
+
+[[main]]
+name ='文章'
+pageRef ='/posts/'
+weight = 20
+
+[[main]]
+name ='教程'
+pageRef ='/courses/'
+weight = 30
+
+[[main]]
+name ='归档'
+pageRef ='/archives/'
+weight = 40
+
+

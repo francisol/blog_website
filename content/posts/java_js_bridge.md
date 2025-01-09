@@ -1,11 +1,12 @@
 ---
 title: JavaJs连接桥的实现
+date: 2016-09-17 22:54:47
 categories:
   - Android
-toc: true
-date: 2016-9-17 22:54:47
 tags:
 - Java
+aliases:
+- /Android/java_js_bridge/
 ---
 
 # Java与Js调用

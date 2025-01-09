@@ -1,8 +1,6 @@
-.DS_Store
-Thumbs.db
-db.json
-*.log
-node_modules/
-public/
-.deploy*/
-.vscode
+node_modules
+resources
+public
+hugo_stats.json
+package.hugo.json
+yarn.lock

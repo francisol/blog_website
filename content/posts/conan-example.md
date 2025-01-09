@@ -1,13 +1,15 @@
----
-title: conan使用简要实例
-toc: true
-date: 2017-02-15 14:19:27
-tags:
-- 工具
-categories:
-- C++
-description: 在Java开发中,我们有maven做依赖管理,在PHP开发中我们有Composer做管理,Android、iOS、Python、NodeJS等等都有各自的管理工具,但是C/C++没那么幸运了,很晚才出现包管理工具,下面就让我们看看如何使用C/C++的包管理工具.
----
++++
+title='conan使用简要实例'
+date = '2017-02-15 14:19:27'
+tags= ['工具']
+categories= ['C++']
+keywords=['C++','conan']
+aliases= ["/C/conan-example/"]
+summary='在Java开发中,我们有maven做依赖管理,在PHP开发中我们有Composer做管理,Android、iOS、Python、NodeJS等等都有各自的管理工具,但是C/C++没那么幸运了,很晚才出现包管理工具,下面就让我们看看如何使用C/C++的包管理工具.'
++++
+
+{{<outdated  content="本内容为 conan1，且年代久远，目前已过期。">}}
+
 # 前言
 在Java开发中,我们有maven做依赖管理,在PHP开发中我们有Composer做管理,Android、iOS、Python、NodeJS等等都有各自的管理工具,但是C/C++没那么幸运了,很晚才出现包管理工具.
 

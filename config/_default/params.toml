@@ -1,0 +1,15 @@
+ShowBreadCrumbs= true
+ShowReadingTime= true
+showtoc= true
+ShowPostNavLinks= true
+UseHugoToc = true
+ShowCodeCopyButtons= true
+hideMeta= false
+ShowWordCount = true
+DateFormat='2006-01-02'
+# DateFormat='2006-01-02 15:04:05'
+[homeInfoParams]
+    Title= '非离坚白'
+    Content= '专注于数理逻辑的半吊子'
+# mainSections=['courses']
+  mainSections = ['books', 'films']

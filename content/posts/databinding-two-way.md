@@ -6,8 +6,9 @@ tags:
 - DataBinding
 categories:
 - Android
-toc: true
-description: DataBinding使我们远离了findViewById和各种的setValue，大大大简化了开发工作，也是的Android从官方层面上支持MVVM模式的体现。但是只有单向绑定,没有双向绑定
+aliases:
+- /Android/databinding-two-way/
+summary: DataBinding使我们远离了findViewById和各种的setValue，大大大简化了开发工作，也是的Android从官方层面上支持MVVM模式的体现。但是只有单向绑定,没有双向绑定
 ---
 # DataBinding简介
  > [DataBinding](http://developer.android.com/intl/zh-cn/tools/data-binding/guide.html)是由谷歌公司于2015年发布的Android数据绑定库，已更新为正式版。
@@ -110,4 +111,3 @@ public class MainActivity extends AppCompatActivity {
 相关链接
 - [MVC，MVP 和 MVVM 的图示](http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html)
 - [Data Binding（数据绑定）用户指南](http://www.jianshu.com/p/b1df61a4df77)
-

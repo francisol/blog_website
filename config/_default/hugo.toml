@@ -1,0 +1,26 @@
+
+baseURL = '/'
+languageCode = 'zh-CN'
+languageDirection = 'ltr'
+defaultContentLanguage = 'zh'
+title = '非离坚白'
+hasCJKLanguage=true
+theme= 'PaperMod'
+summaryLength=30
+removePathAccents = true
+copyright= " © 2016-2025 [非离坚白](https://francisol.github.io/)"
+mainSections = ['posts', 'courses']
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  author ='authors'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+

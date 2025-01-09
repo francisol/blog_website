@@ -1,0 +1,36 @@
+<style>
+    .outdated-warning {
+        margin: 20px 0;
+        padding: 15px;
+        border-radius: 4px;
+        background: #fff3cd;
+        border: 1px solid #ffeeba;
+      }
+      
+      .outdated-warning-title {
+        color: #856404;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+      
+      .outdated-warning-content {
+        color: #666;
+        font-size: 0.9em;
+      }
+</style>
+
+{{ $timestamp := .Page.Date }}
+
+
+<div class="outdated-warning">
+  <div class="outdated-warning-title">⚠️ 内容可能已过期</div>
+  <div class="outdated-warning-content">
+    {{ with .Get "content" }}
+    {{ . }}
+  {{ else }}
+  本文最后更新于 {{ $timestamp.Format "2006-01-02" }}，
+  文中所描述的信息可能已发生改变,请读者注意甄别。
+  {{ end }}
+
+  </div>
+</div>

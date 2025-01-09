@@ -1,6 +1,5 @@
 ---
 title: 解决DataBinding和kotlin共用报错的问题
-toc: true
 date: 2016-02-23 19:39:35
 tags:
 - Android 
@@ -8,7 +7,9 @@ tags:
 - Kotlin
 categories:
 - Android
-description: 两天kotlin1.0正式版发布的事情在Android 开发者和Java程序员中炸开了锅。其中不少Android程序员们肯定都想试试这个新玩意。但是如果你之前已经习惯于用Data Binding框架开发的话，你肯定会遇到这样一个问题：DataBinding和kotlin放在一个项目中编译执行会报错。
+aliases:
+- /Android/DataBinding-kotlin-error/
+summary: 两天kotlin1.0正式版发布的事情在Android 开发者和Java程序员中炸开了锅。其中不少Android程序员们肯定都想试试这个新玩意。但是如果你之前已经习惯于用Data Binding框架开发的话，你肯定会遇到这样一个问题：DataBinding和kotlin放在一个项目中编译执行会报错。
 
 ---
 # 前言
